@@ -388,6 +388,7 @@ nav {
  .section-twelve {
   background-color: rgb(242,242,242);
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .section-twelve .img-container {
@@ -444,50 +445,56 @@ nav {
 }
 
  .section-thirteen {
-  position: relative;
-  
+ 
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
   border-bottom: 1px solid black;
-  height: 18.75rem;
+ 
 }
 .section-thirteen ul {
-  display: inline-block;
+  
   list-style-type: none;
   font-size: 0.75rem;
   line-height: 1.5625rem;
 }
+
+.section-thirteen ul li {
+  margin-bottom: 1rem;
+}
+
+.list-container {
+  display: flex;
+  gap: 2rem;
+}
  .section-thirteen h2 {
   font-size: 0.875rem;
-  margin-left: 2.1875rem;
+  margin-bottom: 2rem;
+ 
 }
- .manage,   .financial,  .sanwo,  .one-more {
-  position: absolute;
-  left: 18.75rem;
+
+#list-head {
+  font-weight: 500;
 }
-  .manage {
-  left: 25rem;
-  bottom: 0;
-  top: 0;
-}
-  .financial {
-  left: 37.5rem;
-  bottom: 0;
-  top: 0;
-}
- .sanwo {
-  left: 50rem;
-  bottom: 0;
-  top: 0;
-}
- .one-more {
-  left: 62.5rem;
-  bottom: 0;
-  top: 0;
-}
+ 
+ 
 .section-fourteen {
-  position: relative;
-  top: 105rem;
-  position: relative;
-  height: 18.75rem;
+ 
+  padding: 2%;
+display: flex;
+justify-content: space-between;
+gap: 8%;
+}
+
+.section-fourteen h2 {
+  margin-bottom: 2rem;
+}
+
+.bank-mobile-container {
+  display: flex;
+  
+  flex-direction: column;
+  gap: 2rem;
 }
  .section-fourteen button {
   background-color: black;
@@ -497,60 +504,43 @@ nav {
   padding-right: 1rem;
 }
  .section-fourteen ul {
-  display: inline-block;
   list-style-type: none;
-  font-size: 0.75rem;
   line-height: 1.5625rem;
+  font-size: 0.8rem;
+  width: 100%;
 }
+
+.section-fourteen ul li {
+  margin-bottom:1.5rem;
+}
+
+
  .section-fourteen h2 {
   font-size: 0.875rem;
-  margin-left: 2.1875rem;
-}
- .blogg, .companyy, .guides {
-  position: absolute;
-  left: 9.375rem;
-  bottom: 0;
-}
- .social-media {
-  position: absolute;
-  bottom: 7.8125rem;
-}
- .companyy {
-  left: 17.5rem;
-  bottom: 3.125rem;
-}
- .guides {
-  left: 26.875rem;
-  bottom: 9.0625rem;
-}
- .bank-mobile {
-  position: absolute;
-  left: 36.25rem;
-  top: 11.875rem;
-}
- .section-fourteen img {
-  position: absolute;
-  left: 61.25rem;
-  top: 8.0625rem;
-  width: 17.5rem;
-  height: 17.5rem;
-}
- .terms {
-  position: relative;
-  background-color: rgb(54,161,139);
-  color: white;
-  padding: 0.625rem;
-  top: 111.9375rem;
-}
- .terms p {
-  display: inline-block;
-  padding-right: 2rem;
-  font-size: 0.625rem;
-}
-.terms h5 {
-  position: absolute;
-  left: 68.75rem;
-  top: 0;
-  color: white;
   
 }
+
+
+ 
+ .footer {
+ display: flex;
+ justify-content: space-between;
+  background-color: rgb(54,161,139);
+  color: white;
+  padding: 2%;
+ 
+}
+
+.terms {
+  display: flex;
+  gap: 3rem;
+  font-size: 0.7rem;
+}
+
+.right-footer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 0.7rem;
+}
+ 
